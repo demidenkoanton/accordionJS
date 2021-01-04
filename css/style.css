@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+}
+
+.accordion-item--active .accordion-item__trigger {
+  background-color: #ccc;
+}
+
+.accordion-item--active .accordion-item__content {
+  display: block !important;
+}
+
+.accordion-item__trigger {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.accordion-item__content {
+  padding: 20px;
+  border: 1px solid black;
+  border-top: none;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
